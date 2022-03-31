@@ -1,0 +1,30 @@
+.idea-item {
+  border: 1px solid #c8eff9;
+  border: none;
+  /* border: 1px solid #f27d42; */
+  background-color: #55bdca;
+  /* box-shadow: 0 0 10px #022449; */
+  box-shadow: 1px 1px 10px #55bdca;
+  width: 20%;
+  margin: 3rem;
+  flex-grow: 1;
+  padding: 0.5rem 2rem;
+  color: black;
+  text-align: center;
+  /* text-shadow: 2px 2px 10px rgb(101, 99, 99); */
+  transition: transform 0.1s ease-out;
+  border-radius: 3px;
+}
+.idea-item > h4:nth-child(1) {
+  border-bottom: 2px solid #022449;
+}
+
+.ideator {
+  text-align: end;
+  display: block;
+}
+
+.idea-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px black;
+}

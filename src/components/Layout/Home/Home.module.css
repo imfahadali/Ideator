@@ -1,0 +1,30 @@
+.home-container {
+  background-position: right;
+  background-image: url("../../../../public/Innovation-amico.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: calc(100vh - 57px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #55bdca;
+  color: #fff;
+}
+.home-text {
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  width: fit-content;
+  background-color: #f27d42;
+  margin: 5% 0 0 20%;
+  text-shadow: 0 0 10px #312b2b;
+  transition: background-color 0.5s ease-in;
+}
+
+@media (max-width: 600px) {
+  .home-text {
+    margin: 5% 10% 0% 10%;
+    background-color: rgba(242, 125, 66, 0.1);
+  }
+}
